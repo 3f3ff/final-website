@@ -1,0 +1,317 @@
+body {
+    background-image: url(../img/nasa-stars-hd-1080P-wallpaper.jpg);
+    color: white;
+    background-repeat:repeat ;
+    background-size: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    
+
+}
+.fir {
+    padding-top: 10px;
+    display: inline-block;
+    transition: 1s;
+    position:relative;
+}
+article{
+    margin-left: 30px;
+    border-left: 2px solid white;
+
+}
+.armstrong {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.ediv {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.michael {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.armstrong:hover {
+    display: inline-block;
+    transition: 1s;
+    border: 4px solid white;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+.ediv:hover {
+    display: inline-block;
+    transition: 1s;
+    border: 4px solid white;
+    border-radius: 10px;
+    padding: 10px;
+}
+.michael:hover {
+    display: inline-block;
+    transition: 1s;
+    border: 4px solid white;
+    border-radius: 10px;
+    padding: 10px;
+}
+li:hover {
+    display: inline-block;
+    transition: 1s;
+    border: 4px solid white;
+    border-radius: 10px;
+    padding: 10px;
+}
+.opisanie {
+    border-left: 2px solid red;
+}
+.history {
+    border-left: 2px solid rgb(38, 190, 18);
+}
+.finans {
+    border-left: 2px solid rgb(255, 0, 221);
+}
+.program {
+    border-left: 2px solid rgb(0, 182, 238);
+}
+.merhuriy {
+    border-left: 2px solid rgb(188, 255, 3);
+}
+.appolon {
+    border-left: 2px solid rgb(197, 57, 92);
+}
+.ekipaj {
+    border-left: 2px solid rgb(252, 174, 6);
+}
+.more {
+    border: 2px solid #00FFFF;
+    display: inline-block;
+    border-radius: 7px;
+    transition: 1s;
+}
+.more:hover {
+    transition: 1s;
+    padding: 10px;
+    border-color: yellow;
+}
+.more:active {
+    transition: 1s;
+    padding: 15px;
+    border-color: red;
+}
+.fir:hover {
+    transition: 1s;
+    transform: scale(1.2);
+}
+.sec {
+    padding-bottom: 10px;
+    display: inline-block;
+    transition: 1s;
+}
+.sec:hover {
+    transition: 1s;
+    transform: scale(1.2);
+}
+.thr {
+    padding-bottom: 10px;
+    display: inline-block;
+    transition: 1s;
+}
+.thr:hover {
+    transition: 1s;
+    transform: scale(1.2);
+}
+.for {
+    padding-bottom: 10px;
+    display: inline-block;
+    transition: 1s;
+}
+.for:hover {
+    transition: 1s;
+    transform: scale(1.2);
+}
+.fiv {
+    padding-bottom: 10px;
+    display: inline-block;
+    transition: 1s;
+}
+.fiv:hover {
+    transition: 1s;
+    transform: scale(1.2);
+}
+.op:hover {
+    padding: 5px;
+    border-color: rgb(255, 0, 0);
+    transition: 1s;
+}
+.op {
+    transition: 1s;
+}
+.hi {
+    transition: 1s;
+}
+.hi:hover {
+    padding: 5px;
+    border-color: rgb(251, 255, 0);
+    transition: 1s;
+}
+.fi {
+    transition: 1s;
+}
+.fi:hover {
+    padding: 5px;
+    border-color: rgb(255, 102, 0);
+    transition: 1s;
+}
+.pro {
+    transition: 1s;
+}
+.pro:hover {
+    padding: 5px;
+    border-color: rgb(255, 0, 191);
+    transition: 1s;
+}
+.op:active {
+    padding: 10px;
+    border-color: seashell;
+    transition: 1s;
+}
+.hi:active {
+    padding: 10px;
+    border-color: seashell;
+    transition: 1s;
+}
+.fi:active {
+    padding: 10px;
+    border-color: seashell;
+    transition: 1s;
+}
+.pro:active {
+    padding: 10px;
+    border-color: seashell;
+    transition: 1s;
+}
+nav {
+    display: inline-block;
+    border: 4px solid white;
+    padding: 10px;
+    border-radius: 27px;
+}
+.history {
+    font-family: 'Koulen', cursive;;
+}
+.program {
+    font-family: 'Lora', serif;
+}
+.finans {
+    font-family: 'Zen Loop', cursive;
+}
+.opisanie {
+    font-family: 'Smokum', cursive;
+}
+
+h1 {
+    text-align: center;
+}
+footer{
+    border-top: 3px solid white;
+}
+.arm {
+    display: none;
+    transition: 1s;
+}
+.armst {
+    cursor: pointer;
+}
+.armst:hover img {
+    display: block;
+    transition: 1s;
+}
+.edi {
+    display: none;
+    transition: 1s;
+}
+.ed {
+    cursor: pointer;
+}
+.ed:hover img {
+    display: block;
+    transition: 1s;
+}
+.mi {
+    display: none;
+    transition: 1s;
+}
+.mic {
+    cursor: pointer;
+}
+.mic:hover img {
+    display: block;
+    transition: 1s;
+}
+@keyframes h2-anime {
+    0% {
+        color: white;
+    }
+    25% {
+        color: red;
+    }
+    50% {
+        color: fuchsia;
+    }
+    100% {
+        color: lime;
+    }
+}
+h2 {
+    animation-name: h2-anime;
+    animation-duration: 4s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+.na {
+    display: inline-block;
+    animation-name: img-anime;
+    animation-duration: 1s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+    transition: 1s;
+    padding-left: 470px;
+
+
+}
+@keyframes img-anime {
+    0% {
+        transform: scale(1.2);
+    }
+    50% {
+        transform: scale(1.25);
+    }
+    100% {
+        transform: scale(1.3);
+    }
+}
+a {
+    color:white;
+}
+.facti:hover {
+    border-color: rgb(37, 230, 46);
+    transition: 1s;
+}
+.foto:hover {
+    border-color: rgb(0, 238, 255);
+    transition: 1s;
+}
+@media (max-width: 1000px) {
+    
+
+    nav {
+        width: 300px;
+        height: 300px;
+        font-size: 37px;
+    }
+    .more {
+        width: 200px;
+        height: 110 vxzpx;
+        font-size: 37px;
+    }
+    .na {
+        position: absolute;
+        right: 300px;
+    }
+
+}

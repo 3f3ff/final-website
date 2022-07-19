@@ -1,0 +1,16 @@
+.eight {
+    display: inline-block;
+}
+.seven {
+    display: inline-block;
+}
+.nine {
+    display: inline-block;
+}
+.ten {
+    display: inline-block;
+}
+.photo img:hover {
+    transition: 1s;
+    transform: scale(1.2);
+}
